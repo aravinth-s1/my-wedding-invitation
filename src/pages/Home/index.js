@@ -24,17 +24,21 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Snowfall from "react-snowfall";
 import {useNavigate} from "react-router-dom";
 
+import AswiniFile from '../../assets/images/text-1667030434157.png';
+import ConnectorFile from '../../assets/images/text-1667031009171.png';
+import AravinthFile from '../../assets/images/text-1667030442509.png';
+
 function Home() {
     const navigate = useNavigate();
     const typedJSRef = useRef(null);
     const [aswiniFile] = useState(
-        "./text-1667030434157.png"
+        "text-1667030434157.png"
     );
     const [connectorFile] = useState(
-        "./text-1667031009171.png"
+        "text-1667031009171.png"
     );
     const [aravinthFile] = useState(
-        "./text-1667030442509.png"
+        "../text-1667030442509.png"
     );
 
     // Setting up typedJS
@@ -99,9 +103,9 @@ function Home() {
                         {/*>*/}
                         {/*    <span ref={typedJSRef} />*/}
                         {/*</MKTypography>*/}
-                        <img src={aravinthFile} style={{ transform: 'rotate(-10deg)', marginTop: '100px'}} />
-                        <img src={connectorFile} style={{ transform: 'rotate(-10deg)'}} />
-                        <img src={aswiniFile} style={{ transform: 'rotate(-10deg)'}} />
+                        <img src={AravinthFile} style={{ transform: 'rotate(-10deg)', marginTop: '100px'}} />
+                        <img src={ConnectorFile} style={{ transform: 'rotate(-10deg)'}} />
+                        <img src={AswiniFile} style={{ transform: 'rotate(-10deg)'}} />
 
                         {/*<MKTypography variant="body1" color="white" mt={1} mb={6} px={{ xs: 3, lg: 6 }}>*/}
 

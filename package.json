@@ -1,6 +1,7 @@
 {
   "name": "Wedding Invitation",
   "version": "1.0.0",
+  "homepage": "https://aravinth-s1.github.io/my-wedding-invitation",
   "private": true,
   "author": "Aravinth",
   "description": "This is wedding invitation for Aravinth and Aswini's marriage.",
@@ -38,6 +39,8 @@
     "web-vitals": "1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -71,6 +74,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-react-hooks": "4.2.0",
+    "gh-pages": "^4.0.0",
     "prettier": "2.3.2",
     "react-error-overlay": "6.0.9",
     "sass": "^1.55.0"

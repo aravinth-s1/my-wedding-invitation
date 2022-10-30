@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-wedding-invitation/static/css/main.a402cbc3.chunk.css",
-    "main.js": "/my-wedding-invitation/static/js/main.ed747eee.chunk.js",
-    "main.js.map": "/my-wedding-invitation/static/js/main.ed747eee.chunk.js.map",
+    "main.js": "/my-wedding-invitation/static/js/main.b8af4814.chunk.js",
+    "main.js.map": "/my-wedding-invitation/static/js/main.b8af4814.chunk.js.map",
     "runtime-main.js": "/my-wedding-invitation/static/js/runtime-main.5153eb14.js",
     "runtime-main.js.map": "/my-wedding-invitation/static/js/runtime-main.5153eb14.js.map",
     "static/js/2.40f4e67e.chunk.js": "/my-wedding-invitation/static/js/2.40f4e67e.chunk.js",
@@ -43,12 +43,14 @@
     "static/media/team-5.d59ab7b9.jpg": "/my-wedding-invitation/static/media/team-5.d59ab7b9.jpg",
     "static/media/testimonial-6-2.21f2048f.jpg": "/my-wedding-invitation/static/media/testimonial-6-2.21f2048f.jpg",
     "static/media/testimonial-6-3.d35bef0d.jpg": "/my-wedding-invitation/static/media/testimonial-6-3.d35bef0d.jpg",
+    "static/media/text-1667030434157.57776280.png": "/my-wedding-invitation/static/media/text-1667030434157.57776280.png",
+    "static/media/text-1667030442509.6f3251d3.png": "/my-wedding-invitation/static/media/text-1667030442509.6f3251d3.png",
     "static/media/waves-white.7e7579c6.svg": "/my-wedding-invitation/static/media/waves-white.7e7579c6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5153eb14.js",
     "static/js/2.40f4e67e.chunk.js",
     "static/css/main.a402cbc3.chunk.css",
-    "static/js/main.ed747eee.chunk.js"
+    "static/js/main.b8af4814.chunk.js"
   ]
 }
